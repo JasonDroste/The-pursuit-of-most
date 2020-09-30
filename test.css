@@ -1,0 +1,351 @@
+/*
+	=========================================
+			HTML Elements
+	=========================================
+
+*/
+
+
+body{
+	background-color: /*#b8b8b8*/ #fff;
+	
+}
+
+h1{
+	color: #aaa;
+    -webkit-font-smoothing: antialiased;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    font-weight: 400;
+}
+h3{
+	color: #323130;
+    -webkit-font-smoothing: antialiased;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+    font-weight: 300;
+    font-weight: 400;
+}
+p{
+	-webkit-font-smoothing: antialiased;
+    font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+	 color:  #323130;
+	 font-size: 18px;
+}
+/*
+	=========================================
+			Page/Div Elements
+	=========================================
+
+*/
+.box {
+	  display: flex;
+	  align-items: left;
+	  justify-content: left;
+	  background: #fff/*#aaa*/;
+	  margin-top: 10%;
+	  margin-bottom: 5%;
+	  padding: 4%;/*10px;*/
+	  width: 100%;
+	  /*min-height: 250px;*/
+	  border: 2px #ccc solid;
+	  color:  #323130/*#fff*/;
+}
+.boxBlogpage {
+	  display: flex;
+	  align-items: left;
+	  justify-content: left;
+	  background: #fff/*#aaa*/;
+	  margin-top: 10%;
+	  padding-top: 2%;
+	  padding-bottom: 2%;
+	  width: 100%;
+	  /*min-height: 250px;*/
+	  border: 2px #ccc solid;
+	  color:  #323130/*#fff*/;
+}
+.boxSun {
+	  background-image: url(https://thepursuitofmost.com/wp-content/uploads/2018/01/sunred.png);
+	background-repeat: no-repeat;
+	background-position: 50% 0%;
+	  /*background-color: #fff;*/
+	  margin-top: 7%;
+	  padding: 10px;
+	  width: 100%;
+	  min-height: 420px;
+	 
+	  /*border: 2px #ccc solid*/
+	  color:  #323130/*#fff*/;
+	  
+}
+.welcomebox {
+	
+	  margin-top: 3%;
+	  padding: 4%;
+	  width: 100%;
+	  /*min-height: 250px;*/
+}
+.singlebox {
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  background: #fff/*#aaa*/;
+	  margin-top: 0%;
+	  margin-bottom: 0%;
+	  padding: 10px;
+	  width: 100%;
+	  height: 50%;
+	  /*border: 2px #ccc solid;*/
+	  color:  #323130/*#fff*/;
+}
+.singleImagebox {
+	  display: flex;
+	  align-items: center;
+	  justify-content: center;
+	  background: #fff/*#aaa*/;
+	  margin-top: 1%;
+	  margin-bottom: 1%;
+	  padding: 0px;
+	  width: 100%;
+	  /*height: 50%;*/
+	  /*border: 2px #ccc solid;*/
+	  color:  #323130/*#fff*/;
+	  
+}
+.sidebarbox {
+	  
+	  display: flex;
+	  align-items: left;
+	  justify-content: left;
+	  background-color: color inherit /*#fff#aaa*/;
+	  margin-top: 21%;
+	  padding: 10px;
+	  width: 75%;
+	  min-height: 250px;
+	  /*border: 2px #ccc solid;*/
+	  color:  #323130/*#fff*/;
+}
+.single{
+	background: url(https://thepursuitofmost.com/wp-content/uploads/2018/01/bkgrnd.png);
+	background-repeat: repeat-x;
+	background-color: #b8b8b8;
+	padding-bottom: 10%;
+	/*height: 100%;*/
+}
+.shadow {
+ -webkit-box-shadow: 0 10px 6px -6px #777;
+       -moz-box-shadow: 0 10px 6px -6px #777;
+            box-shadow: 0 10px 6px -6px #777;
+}
+.leftbannerbox {
+	background-image: 
+	url(https://thepursuitofmost.com/wp-content/uploads/2018/01/robotleft.png),
+	url(https://www.thepursuitofmost.com/wp-content/uploads/2018/02/banner2left2.png);
+	background-repeat: no-repeat, no-repeat;
+	background-position: right, 0% 30%;
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	margin-top: 0%;
+	padding: 10px;
+	width: 50%;
+	min-height: 417px;
+	/*border: 2px #ccc solid;*/
+	color:  #323130/*#fff*/;
+	z-index: 10;
+}
+.rightbannerbox {
+	background-image:
+	url(https://thepursuitofmost.com/wp-content/uploads/2018/01/robotright.png),
+	url(https://www.thepursuitofmost.com/wp-content/uploads/2018/02/banner2right2.png);
+	background-repeat: no-repeat, no-repeat; 
+	background-position: left, 0% 30%;
+	display: flex;
+	align-items: left;
+	justify-content: left;
+	margin-top: 0%;
+	padding: 10px;
+	width: 50%;
+	min-height: 417px;
+	/*border: 2px #ccc solid;*/
+	color:  #323130/*#fff*/;
+	z-index: 10;
+}
+.navbar-default li{
+	/*border-right: 1px solid silver;*/
+	
+}
+
+.leftBox{
+	float: left;
+}
+.rightBox{
+	float: right;
+
+}
+
+.pageBackgroundWhite{
+	background-image: url(https://www.thepursuitofmost.com/wp-content/uploads/2018/01/pagebkgrnd.png);
+	background-repeat: repeat-y;
+	background-position: center;
+	/*background-size: contain;*/
+	/*background-color: #fff;*/
+	width: 540px;
+	height: 100%;
+	
+	}
+.logo{
+	background-image: url(https://www.thepursuitofmost.com/wp-content/uploads/2018/01/homepageslogan-e1516758536110-300x68.png);
+	height: 70px;
+	width: 300px;
+	position: absolute;
+	z-index: 10;
+	}
+.logoFooter{
+	background-image: url(https://www.thepursuitofmost.com/wp-content/uploads/2018/01/header3.png);
+	background-repeat: no-repeat;
+	height: 50px;
+	width: 273px;
+	border: 2px #ccc solid;
+	
+	margin-left: 65%;
+	background-position: center;
+	position: absolute;
+	z-index: 10;
+	}
+	
+.btn.btn-square {
+  border-radius: 0;
+}
+.blog-background{
+     animation: colorchange 50s; /* animation-name followed by duration in seconds*/
+         /* you could also use milliseconds (ms) or something like 2.5s */
+     -webkit-animation: colorchange 50s; /* Chrome and Safari */
+	  /*height: 100%;*/
+	background: #eee;
+    padding-top: 1%;
+	padding-bottom: 1%;
+	/*margin-bottom: 20%;*/ 
+    }
+
+    @keyframes colorchange
+    {
+      0%   {background-color: #ccc;}
+      25%  {background: #c97738;}
+      50%  {background: #eee;}
+      75%  {background: #aaa;}
+      100% {background: #eee;}
+    }
+
+    @-webkit-keyframes colorchange /* Safari and Chrome - necessary duplicate */
+    {
+      0%   {background: #eee;}
+      25%  {background: #fff;}
+      50%  {background: #c97738;}
+      75%  {background: #aaa;}
+      100% {background: #eee;}
+    }
+.navbar-brand {
+  font-size: 25px;
+}
+ul{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+	}
+	
+/*ul li{
+	float: left;
+	}*/
+ul a{
+	/*display: block;*/
+	padding: 0 1em;
+	text-decoration:;
+	color: #323130;
+	font-family: verdana;
+	font-size: 18px;
+	}
+/* NAVIGATION */
+
+nav ul {
+  list-style: none;
+  text-align: center;
+}
+nav ul li {
+  display: inline-block;
+}
+nav ul li a {
+  display: block;
+  padding: 15px;
+  text-decoration: none;
+  color: #aaa;
+  /*font-weight: 800;
+  text-transform: uppercase;*/
+  margin: 0 10px;
+}
+nav ul li a,
+nav ul li a:after,
+nav ul li a:before {
+  transition: all .5s;
+}
+nav ul li a:hover {
+  color: #555;
+}	
+
+/* stroke */
+nav.stroke ul li a,
+nav.fill ul li a {
+  position: relative;
+}
+nav.stroke ul li a:after,
+nav.fill ul li a:after {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 0%;
+  content: '.';
+  color: transparent;
+  background: #aaa;
+  height: 1px;
+}
+nav.stroke ul li a:hover:after {
+  width: 100%;
+}
+
+nav.fill ul li a {
+  transition: all 2s;
+}
+
+nav.fill ul li a:after {
+  text-align: left;
+  content: '.';
+  margin: 0;
+  opacity: 0;
+}
+nav.fill ul li a:hover {
+  color: #fff;
+  z-index: 1;
+}
+nav.fill ul li a:hover:after {
+  z-index: -10;
+  animation: fill 1s forwards;
+  -webkit-animation: fill 1s forwards;
+  -moz-animation: fill 1s forwards;
+  opacity: 1;
+}
+.dropdown-menu {
+  opacity: 0;
+  visibility: hidden;
+  transform-origin: top;
+  animation-fill-mode: forwards; 
+  transform: scale(0.9, 0.7) translateY(-20px);
+  display: block; 
+  transition: all 80ms ease;
+}
+.open > .dropdown-menu {
+  transform: scale(1, 1) translateY(0);  
+  opacity: 1;
+  visibility: visible;
+}	
+
